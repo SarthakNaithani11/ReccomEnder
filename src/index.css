@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
+input:focus {
+  outline: none;
+}
+
+.progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 100%;
+  outline: none;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: none;
+}
+.progress-bar::-moz-range-thumb {
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: none;
+}
+
+
+.scrollbar-neon::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-neon::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-neon::-webkit-scrollbar-thumb {
+  background: #EBFC72;
+  border-radius: 10px;
+}
+
+.scrollbar-neon::-webkit-scrollbar-thumb:hover {
+  background: #d6f54d;
+}
+
+/* Firefox */
+.scrollbar-neon {
+  scrollbar-width: thin;
+  scrollbar-color: #EBFC72 transparent;
+}
