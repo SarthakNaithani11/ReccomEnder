@@ -1,14 +1,10 @@
 import React, { use } from 'react'
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import videoFile from "../assets/fayewong.webm";
-import imageFile from "../assets/text.svg";
-import { gsap } from 'gsap';
-import { Draggable } from 'gsap/all';
+import imageFile from "../assets/Text.svg";
 import Movie from './Movie';
 import Float from './Float';
 import SearchBar from './SearchBar';
-gsap.registerPlugin(Draggable);
 
 const Search = () => {
 

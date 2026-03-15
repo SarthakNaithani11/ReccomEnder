@@ -1,4 +1,3 @@
-
 import Reccomendations from './components/Reccomendations'
 import Search from './components/Search'
 import { Routes, Route } from "react-router-dom"
